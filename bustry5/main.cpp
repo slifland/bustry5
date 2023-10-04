@@ -103,7 +103,8 @@ namespace {
     class ExprAST {
     public:
         virtual ~ExprAST() = default;
-        virtual Value *codegen() = 0;
+        //virtual Value *codegen() = 0;
+        //hi urav
     };
 
 /// NumberExprAST - Expression class for numeric literals like "1.0".
